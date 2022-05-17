@@ -1,0 +1,9 @@
+0.17.10
+glib-dev
+gobject-introspection-dev
+libgudev-dev
+pkgconfig(glib-2.0)
+pkgconfig(gudev-1.0)
+pkgconfig(libpcap)
+pkgconfig(libudev)
+vala
