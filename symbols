@@ -21,6 +21,8 @@ libumockdev-preload.so.0:fopen64
 libumockdev-preload.so.0:fread
 libumockdev-preload.so.0:fstatat
 libumockdev-preload.so.0:fstatat64
+libumockdev-preload.so.0:fstatfs
+libumockdev-preload.so.0:fstatfs64
 libumockdev-preload.so.0:fwrite
 libumockdev-preload.so.0:getcwd
 libumockdev-preload.so.0:getxattr
