@@ -1,9 +1,12 @@
+libumockdev-preload.so.0:__getcwd_chk
+libumockdev-preload.so.0:__ioctl_time64
 libumockdev-preload.so.0:__lxstat
 libumockdev-preload.so.0:__lxstat64
 libumockdev-preload.so.0:__open64_2
 libumockdev-preload.so.0:__open_2
 libumockdev-preload.so.0:__readlinkat_chk
 libumockdev-preload.so.0:__realpath_chk
+libumockdev-preload.so.0:__recvmsg64
 libumockdev-preload.so.0:__xstat
 libumockdev-preload.so.0:__xstat64
 libumockdev-preload.so.0:access
@@ -65,6 +68,8 @@ libumockdev-preload.so.0:send
 libumockdev-preload.so.0:socket
 libumockdev-preload.so.0:stat
 libumockdev-preload.so.0:stat64
+libumockdev-preload.so.0:statfs
+libumockdev-preload.so.0:statfs64
 libumockdev-preload.so.0:statx
 libumockdev-preload.so.0:strdupx
 libumockdev-preload.so.0:write
@@ -103,8 +108,10 @@ libumockdev.so.0:umockdev_ioctl_data_new
 libumockdev.so.0:umockdev_ioctl_data_ref
 libumockdev.so.0:umockdev_ioctl_data_reload
 libumockdev.so.0:umockdev_ioctl_data_resolve
+libumockdev.so.0:umockdev_ioctl_data_retrieve
 libumockdev.so.0:umockdev_ioctl_data_set_ptr
 libumockdev.so.0:umockdev_ioctl_data_unref
+libumockdev.so.0:umockdev_ioctl_data_update
 libumockdev.so.0:umockdev_ioctl_spi_base_construct
 libumockdev.so.0:umockdev_ioctl_spi_base_get_type
 libumockdev.so.0:umockdev_ioctl_spi_base_handle_read_write
