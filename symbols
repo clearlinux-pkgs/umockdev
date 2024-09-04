@@ -43,6 +43,7 @@ libumockdev-preload.so.0:ioctl_tree_insert
 libumockdev-preload.so.0:ioctl_tree_new_from_bin
 libumockdev-preload.so.0:ioctl_tree_new_from_text
 libumockdev-preload.so.0:ioctl_tree_next
+libumockdev-preload.so.0:ioctl_tree_next_ret
 libumockdev-preload.so.0:ioctl_tree_read
 libumockdev-preload.so.0:ioctl_tree_write
 libumockdev-preload.so.0:ioctl_type_get_by_id
