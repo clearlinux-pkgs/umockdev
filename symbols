@@ -148,9 +148,11 @@ libumockdev.so.0:umockdev_testbed_get_root_dir
 libumockdev.so.0:umockdev_testbed_get_sys_dir
 libumockdev.so.0:umockdev_testbed_get_type
 libumockdev.so.0:umockdev_testbed_load_evemu_events
+libumockdev.so.0:umockdev_testbed_load_evemu_events_from_string
 libumockdev.so.0:umockdev_testbed_load_ioctl
 libumockdev.so.0:umockdev_testbed_load_pcap
 libumockdev.so.0:umockdev_testbed_load_script
+libumockdev.so.0:umockdev_testbed_load_script_from_string
 libumockdev.so.0:umockdev_testbed_load_socket_script
 libumockdev.so.0:umockdev_testbed_new
 libumockdev.so.0:umockdev_testbed_remove_device
@@ -163,3 +165,4 @@ libumockdev.so.0:umockdev_testbed_set_property
 libumockdev.so.0:umockdev_testbed_set_property_hex
 libumockdev.so.0:umockdev_testbed_set_property_int
 libumockdev.so.0:umockdev_testbed_uevent
+libumockdev.so.0:umockdev_testbed_wait_script
