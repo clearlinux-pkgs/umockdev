@@ -6,10 +6,10 @@
 # autospec commit: 5424026
 #
 Name     : umockdev
-Version  : 0.19.0
-Release  : 6
-URL      : https://github.com/martinpitt/umockdev/releases/download/0.19.0/umockdev-0.19.0.tar.xz
-Source0  : https://github.com/martinpitt/umockdev/releases/download/0.19.0/umockdev-0.19.0.tar.xz
+Version  : 0.19.1
+Release  : 7
+URL      : https://github.com/martinpitt/umockdev/releases/download/0.19.1/umockdev-0.19.1.tar.xz
+Source0  : https://github.com/martinpitt/umockdev/releases/download/0.19.1/umockdev-0.19.1.tar.xz
 Summary  : Mock hardware devices
 Group    : Development/Tools
 License  : LGPL-2.1 LGPL-2.1+
@@ -85,10 +85,10 @@ license components for the umockdev package.
 
 
 %prep
-%setup -q -n umockdev-0.19.0
-cd %{_builddir}/umockdev-0.19.0
+%setup -q -n umockdev-0.19.1
+cd %{_builddir}/umockdev-0.19.1
 pushd ..
-cp -a umockdev-0.19.0 buildavx2
+cp -a umockdev-0.19.1 buildavx2
 popd
 
 %build
@@ -96,7 +96,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1735399477
+export SOURCE_DATE_EPOCH=1735829515
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
